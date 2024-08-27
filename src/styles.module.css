@@ -1,0 +1,65 @@
+.background {
+	background: url("../../MOb_Background.svg");
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.scrollText {
+	font-size: 1.5rem;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.25rem;
+	min-height: 10rem;
+	width: 25%;
+	text-align: center;
+	border-radius: 10px;
+	padding: 1rem;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.parallax {
+	margin-right: 15%;
+}
+
+.sticky {
+	margin-left: 15%;
+	background-color: #ff6d6d;
+}
+
+.blue {
+	background-color: #5b65ad;
+	color: white;
+}
+.red {
+	background-color: #f26f21;
+}
+
+.purple {
+	background-color: #9d65d0;
+}
+
+@media (max-width: 750px) {
+	.card {
+		width: 70%;
+		margin: auto;
+	}
+
+	.parallax {
+		margin-right: 0;
+	}
+
+	.sticky {
+		margin-left: 0;
+	}
+}

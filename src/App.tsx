@@ -1,7 +1,8 @@
 import React from "react";
 
 import "./App.css";
-import ParallaxPage from "./ParallaxPage";
+import FinalPage from "./FinalPage";
+import ContactUs from "./ContactUs";
 
 const App: React.FC = () => {
 	return (
@@ -23,7 +24,7 @@ const App: React.FC = () => {
 		// 	</div>
 		// </ParallaxProvider>
 		<>
-			<ParallaxPage />
+			<ContactUs />
 		</>
 	);
 };
